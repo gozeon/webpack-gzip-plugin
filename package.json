@@ -1,0 +1,13 @@
+{
+  "name": "webpack-gzip-plugin",
+  "version": "1.0.0",
+  "description": "Gzip compression plug ins",
+  "main": "index.js",
+  "keywords": [
+    "gizp",
+    "webpack",
+    "plugin"
+  ],
+  "author": "goze <goze.qiu@gmail.com> (https://github.com/gozeon)",
+  "license": "MIT"
+}
