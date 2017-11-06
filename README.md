@@ -11,6 +11,22 @@
 
 ```
 
+# Usage
+
+```bash
+npm install webpack-gzip-plugin --save-dev
+```
+
+webpack.config.js
+
+```javascript
+const GzipPlugin = require('webpack-gzip-plugin');
+
+plugins: [
+  new GzipPlugin();
+]
+```
+
 # License
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Gozeon/webpack-gzip-plugin/blob/master/LICENSE)
+MIT
