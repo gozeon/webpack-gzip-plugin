@@ -11,6 +11,8 @@
 
 ```
 
+[![Build Status](https://travis-ci.org/gozeon/webpack-gzip-plugin.svg?branch=master)](https://travis-ci.org/gozeon/webpack-gzip-plugin)
+
 # Usage
 
 ```bash
