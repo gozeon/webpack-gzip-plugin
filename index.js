@@ -9,7 +9,7 @@ GzipPlugin.prototype.apply = function (compiler) {
   const output = compiler.options.output.path;
 
   compiler.plugin('done', function () {
-    loop(output).then(success('All files have been compressed by gzip mode!'));
+    loop(output);
   })
 }
 
