@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "Gzip compression plug ins",
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ava --verbose"
+  },
   "keywords": [
     "gizp",
     "webpack",
     "plugin"
   ],
   "author": "goze <goze.qiu@gmail.com> (https://github.com/gozeon)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "webpack": "^3.8.1"
+  }
 }
