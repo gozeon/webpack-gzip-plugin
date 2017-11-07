@@ -3,16 +3,6 @@ import webpack from 'webpack';
 import fs from 'fs';
 import options from './webpack.config.js';
 
-test('foo', t => {
-  t.pass();
-});
-
-test('bar', async t => {
-  const bar = Promise.resolve('bar');
-
-  t.is(await bar, 'bar');
-});
-
 test.cb('The file should be compressed by gzip', t => {
   webpack(options, (err, stats) => {
     if (err) {
